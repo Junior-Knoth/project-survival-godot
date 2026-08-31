@@ -1,0 +1,13 @@
+[gd_scene format=3 uid="uid://df6okf1vl4l2f"]
+
+[ext_resource type="PackedScene" uid="uid://dopf6owxygom0" path="res://player.tscn" id="1_fj7yv"]
+[ext_resource type="PackedScene" uid="uid://c3m7j5hsi4unk" path="res://simple_tree.tscn" id="3_tlwt5"]
+
+[node name="World" type="Node2D" unique_id=1805110706]
+
+[node name="Player" parent="." unique_id=1721292483 instance=ExtResource("1_fj7yv")]
+
+[node name="Ground" type="TileMapLayer" parent="." unique_id=265048323]
+
+[node name="Tree" parent="." unique_id=1076062431 instance=ExtResource("3_tlwt5")]
+position = Vector2(-244, -114)
