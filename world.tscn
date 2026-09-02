@@ -10,4 +10,4 @@
 [node name="Ground" type="TileMapLayer" parent="." unique_id=265048323]
 
 [node name="Tree" parent="." unique_id=1076062431 instance=ExtResource("3_tlwt5")]
-position = Vector2(-244, -114)
+position = Vector2(-81, -30)

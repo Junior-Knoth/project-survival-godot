@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="ToolData" format=3 uid="uid://c5mf2ppfhyhwo"]
+
+[ext_resource type="Script" uid="uid://bati6tbtsn1a5" path="res://items/data/tool_data.gd" id="2_d3ge0"]
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_ds3pg"]
+load_path = "res://.godot/imported/stone_axe.png-e60bbf757268ede7c0021e5dea5e1d73.ctex"
+
+[resource]
+script = ExtResource("2_d3ge0")
+tool_type = 2
+power = 5.0
+use_range = 40.0
+id = "stone_axe"
+display_name = "Stone Axe"
+icon = SubResource("CompressedTexture2D_ds3pg")
+metadata/_custom_type_script = "uid://bati6tbtsn1a5"
